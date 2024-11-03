@@ -1,46 +1,101 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+# Sorting Algorithms Visualizer
 
-### `npm start`
+A React-based visualizer for popular sorting algorithms, built with TypeScript and Framer Motion. This application provides an intuitive way to see sorting algorithms in action, helping users understand the steps involved in each sorting process.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🔍 Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Sorting Algorithms Supported:** Bubble Sort, Selection Sort, Insertion Sort, Quick Sort
+- **Visualization:** Animated bars representing array elements, dynamically updated during sorting
+- **Customizable Speed:** Control the sorting speed for better understanding
+- **Array Reset:** Generate a new random array at any time
+- **Responsive Design:** Works on all device sizes
 
-### `npm test`
+## 🚀 Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React** with TypeScript for the front-end framework
+- **Framer Motion** for animations
+- **Tailwind CSS** for styling
 
-### `npm run build`
+## 🖥️ Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Follow these steps to set up and run the project locally.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Node.js** and **npm** installed on your machine
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/sorting-algorithms-visualizer.git
+   cd sorting-algorithms-visualizer
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. **Run the development server**
+   ```bash
+   npm start
+   ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+4. **Open the app**  
+   Visit `http://localhost:3000` to see the visualizer in action.
 
-## Learn More
+## 📄 Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Select a sorting algorithm from the dropdown menu.
+2. Adjust the speed slider to control the sorting speed.
+3. Click **Start Sorting** to begin the visualization. You can see the steps of the algorithm in real time.
+4. Press **Reset Array** to generate a new random array for sorting.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📁 Folder Structure
+
+```
+sorting-algorithms-visualizer/
+├── public/             # Public assets and index.html
+├── src/
+│   ├── components/     # Component files
+│   │   └── Visualizer.tsx  # Sorting visualizer component
+│   ├── App.tsx         # Main App file
+│   ├── index.tsx       # Main entry point
+│   └── styles/         # CSS and Tailwind config
+├── .gitignore
+├── package.json
+├── README.md
+└── tsconfig.json       # TypeScript configuration
+```
+
+## 🎨 Screenshots
+
+_Add some screenshots here to show the visualizer interface, controls, and animations._
+
+## 🛠️ Future Enhancements
+
+- Add more sorting algorithms (e.g., Merge Sort, Heap Sort)
+- Add detailed explanations for each algorithm
+- Option to pause and resume sorting
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to submit issues, fork the repository, and open pull requests.
+
+1. Fork the project
+2. Create a new branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -m 'Add YourFeature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a pull request
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
